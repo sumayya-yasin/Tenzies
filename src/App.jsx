@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react"
 import Confetti from 'react-confetti'
 import { useWindowSize } from 'react-use'
 import Die from "./components/Die"
+import Footer from "./components/Footer"
 
 export default function App() {
   const bestScore = localStorage.getItem("bestScore") || 0;
@@ -67,14 +68,15 @@ export default function App() {
       <main className="main-container">
         <h1>Tenzies</h1>
         <div className="main-container__score-container">
-          <p >Score: <span >{score}</span> </p>
-          <p>Best Score: <span>{bestScore}</span></p>
+          <p>Rolls: <span >{score}</span> </p>
+          <p>Best Rolls: <span>{bestScore}</span></p>
         </div>
         <p className="main-container__paragraph"> Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
         <div className="die-container">
           {generateDice}
         </div>
-        <button ref={buttonRef} className="main-container__button" onClick={rollDice}>{buttonText}</button>
+        <button ref={buttonRef} className={`main-container__button ${gameWon ? "new-game" : "roll"}`} onClick={rollDice}>{buttonText}</button>
       </main>
+      <Footer />
     </>)
 }
