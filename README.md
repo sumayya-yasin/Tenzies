@@ -3,7 +3,7 @@
 
 A fast-paced dice game built with React — hold dice of the same value and keep rolling until all 10 match. This project was created as the capstone for the **Scrimba Learn React** course, with additional features like roll tracking, best score persistence, and confetti animations.
 
-** Live Demo**  
+**Live Demo**  
 🔗 [https://tenzies-game-pi-eight.vercel.app/](https://tenzies-game-pi-eight.vercel.app/)
 
 ---
@@ -11,7 +11,7 @@ A fast-paced dice game built with React — hold dice of the same value and keep
 ##  Screenshots
 
 <p align="center">
-  <img src="src/assets/game-start.PNG" alt="Tenzies Start Screen" width="400"/>
+  <img src="./src/assets/game-start.PNG" alt="Tenzies Start Screen" width="400"/>
   <img src="/src/assets/holding-dice.PNG" alt="Holding Dice" width="400"/>
   <img src="/src/assets/confetti-win.PNG" alt="Winning Confetti" width="400"/>
 </p>
