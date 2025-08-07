@@ -86,4 +86,3 @@ npm run dev
 ## License
 
 MIT License — free to use, modify, and extend with credit.
-
