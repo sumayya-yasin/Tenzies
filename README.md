@@ -7,13 +7,16 @@ A fast-paced dice game built with React — hold dice of the same value and keep
 🔗 [Play here!](https://tenzies-game-pi-eight.vercel.app/)
 
 
-
 ##  Screenshots
 
 <p align="center">
   <img src="https://github.com/sumayya-yasin/Tenzies/blob/main/src/assets/game-start.png" alt="Tenzies Start Screen" width="400"/>
+</p>
+<p align="center">
   <img src="https://github.com/sumayya-yasin/Tenzies/blob/main/src/assets/holding-dice.png" alt="Holding Dice" width="400"/>
-  <img src="https://github.com/sumayya-yasin/Tenzies/blob/main/src/assets/confetti-win.png" width="400"/>
+</p>
+<p align="center">
+  <img src="https://github.com/sumayya-yasin/Tenzies/blob/main/src/assets/confetti-win.png" alt="Win Screen with Confetti" width="400"/>
 </p>
 
 
