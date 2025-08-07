@@ -3,20 +3,23 @@
 
 A fast-paced dice game built with React — hold dice of the same value and keep rolling until all 10 match. This project was created as the capstone for the **Scrimba Learn React** course, with additional features like roll tracking, best score persistence, and confetti animations.
 
-** Live Demo**  
-🔗 [https://tenzies-game-pi-eight.vercel.app/](https://tenzies-game-pi-eight.vercel.app/)
+**Live Demo**  
+🔗 [Play here!](https://tenzies-game-pi-eight.vercel.app/)
 
----
 
 ##  Screenshots
 
 <p align="center">
-  <img src="src/assets/game-start.PNG" alt="Tenzies Start Screen" width="400"/>
-  <img src="/src/assets/holding-dice.PNG" alt="Holding Dice" width="400"/>
-  <img src="/src/assets/confetti-win.PNG" alt="Winning Confetti" width="400"/>
+  <img src="https://github.com/sumayya-yasin/Tenzies/blob/main/src/assets/game-start.png" alt="Tenzies Start Screen" width="400"/>
+</p>
+<p align="center">
+  <img src="https://github.com/sumayya-yasin/Tenzies/blob/main/src/assets/holding-dice.png" alt="Holding Dice" width="400"/>
+</p>
+<p align="center">
+  <img src="https://github.com/sumayya-yasin/Tenzies/blob/main/src/assets/confetti-win.png" alt="Win Screen with Confetti" width="400"/>
 </p>
 
----
+
 
 ##  Features
 
@@ -28,7 +31,7 @@ A fast-paced dice game built with React — hold dice of the same value and keep
 -  **Responsive UI**: Smooth experience across desktop and mobile.
 -  **Built with React**: Utilizes `useState`, `useEffect`, and `useRef`.
 
----
+
 
 ##  Tech Stack
 
@@ -41,7 +44,7 @@ A fast-paced dice game built with React — hold dice of the same value and keep
 | react-confetti | Adds celebratory animations on win         |
 | Vercel         | Hosting platform for live deployment       |
 
----
+
 
 ##  Folder Structure
 
@@ -58,7 +61,6 @@ tenzies-game/
 └── README.md
 ```
 
----
 
 ##  Installation & Setup
 
@@ -71,7 +73,7 @@ npm install
 npm run dev
 ```
 
----
+
 
 ##  Future Improvements
 
@@ -79,14 +81,7 @@ npm run dev
 -  Add theme switcher (dark/light).
 -  Add difficulty levels (e.g., match 12 dice).
 
----
 
-##  Author
-
-**Sumayya**  
-Capstone project as part of Scrimba’s Learn React course.
-
----
 
 ## License
 
