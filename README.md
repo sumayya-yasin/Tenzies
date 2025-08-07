@@ -6,7 +6,7 @@ A fast-paced dice game built with React — hold dice of the same value and keep
 **Live Demo**  
 🔗 [https://tenzies-game-pi-eight.vercel.app/](https://tenzies-game-pi-eight.vercel.app/)
 
----
+
 
 ##  Screenshots
 
@@ -16,7 +16,7 @@ A fast-paced dice game built with React — hold dice of the same value and keep
   <img src="/src/assets/confetti-win.PNG" alt="Winning Confetti" width="400"/>
 </p>
 
----
+
 
 ##  Features
 
@@ -28,7 +28,7 @@ A fast-paced dice game built with React — hold dice of the same value and keep
 -  **Responsive UI**: Smooth experience across desktop and mobile.
 -  **Built with React**: Utilizes `useState`, `useEffect`, and `useRef`.
 
----
+
 
 ##  Tech Stack
 
@@ -41,7 +41,7 @@ A fast-paced dice game built with React — hold dice of the same value and keep
 | react-confetti | Adds celebratory animations on win         |
 | Vercel         | Hosting platform for live deployment       |
 
----
+
 
 ##  Folder Structure
 
@@ -58,7 +58,6 @@ tenzies-game/
 └── README.md
 ```
 
----
 
 ##  Installation & Setup
 
@@ -71,7 +70,7 @@ npm install
 npm run dev
 ```
 
----
+
 
 ##  Future Improvements
 
@@ -79,14 +78,7 @@ npm run dev
 -  Add theme switcher (dark/light).
 -  Add difficulty levels (e.g., match 12 dice).
 
----
 
-##  Author
-
-**Sumayya**  
-Capstone project as part of Scrimba’s Learn React course.
-
----
 
 ## License
 
