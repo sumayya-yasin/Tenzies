@@ -1,11 +1,13 @@
-import { useState, useRef } from "react"
+import { useState, useRef, useEffect } from "react"
 import Confetti from 'react-confetti'
 import { useWindowSize } from 'react-use'
 import Die from "./components/Die"
 
 export default function App() {
+  const bestScore = localStorage.getItem("bestScore") || 0;
   const { width, height } = useWindowSize()
   const [dice, setDice] = useState(() => generateAllNewDice());
+  const [score, setScore] = useState(0);
   const buttonRef = useRef(null);
 
   const gameWon = dice.every(die => die.isHeld === true) ? true : false && dice.every(die => die.value === dice[0].value) ? true : false;
@@ -35,9 +37,14 @@ export default function App() {
           die :
           { ...die, value: Math.floor(Math.random() * 6) + 1 }
       ))
+      setScore(prevScore => prevScore + 1);
     }
-    if (buttonText === "New Game")
+    if (buttonText === "New Game") {
       setDice(generateAllNewDice());
+      if (score < bestScore)
+        localStorage.setItem("bestScore", score);
+      setScore(prevScore => 0);
+    }
   }
 
   function toggleHeld(id) {
@@ -59,7 +66,11 @@ export default function App() {
       </div>
       <main className="main-container">
         <h1>Tenzies</h1>
-        <p> Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
+        <div className="main-container__score-container">
+          <p >Score: <span >{score}</span> </p>
+          <p>Best Score: <span>{bestScore}</span></p>
+        </div>
+        <p className="main-container__paragraph"> Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
         <div className="die-container">
           {generateDice}
         </div>

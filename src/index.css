@@ -43,7 +43,7 @@ body {
   text-align: center;
 }
 
-.main-container p {
+.main-container__paragraph {
   color: #4A4E74;
   font-size: 1.175rem;
   font-weight: 400;
@@ -91,6 +91,23 @@ body {
   text-align: center;
 }
 
+/* score container */
+.main-container__score-container {
+  color: #2B283A;
+  display: flex;
+  font-weight: 600;
+  font-size: 1.2rem;
+  justify-content: space-between;
+  padding: 0 2.5rem;
+  width: 100%;
+}
+
+.main-container__score-container span {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+/* media queries */
 
 @media (max-width: 768px) {
   div#root {
